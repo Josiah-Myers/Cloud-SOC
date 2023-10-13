@@ -33,10 +33,10 @@ For the "BEFORE" metrics, all resources were initially deployed with direct inte
 For the "AFTER" metrics, we fortified the Network Security Groups by restricting all traffic, save for my admin workstation. Additionally, all other resources were safeguarded using their intrinsic firewalls in conjunction with Private Endpoints.
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/k0kg841)<br>
+![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/k0kg841.png)<br>
 ![Linux Syslog Auth Failures](https://i.imgur.com/CszXMDi.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/nV6PwAB)<br>
-![MSSQL Auth Failures](https://i.imgur.com/LQZzBYP)<br>
+![Windows RDP/SMB Auth Failures](https://i.imgur.com/nV6PwAB.png)<br>
+![MSSQL Auth Failures](https://i.imgur.com/LQZzBYP.png)<br>
 
 ## Metrics Before Hardening / Security Controls
 
