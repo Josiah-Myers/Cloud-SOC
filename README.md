@@ -52,11 +52,13 @@ Stop Time 2023-10-10 20:09:07
 | SecurityIncident         | 156
 | AzureNetworkAnalytics_CL | 3687
 
-## Attack Maps Before Hardening / Security Controls
+## Attack Maps After Hardening / Security Controls
 
 ![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/YuY5UgW.png)<br>
 
 ## Metrics After Hardening / Security Controls
+
+![Results of the Security Control Hardening](https://i.imgur.com/zKULgEs.png)<br>
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
 Start Time 2023-10-11 22:27
