@@ -54,7 +54,7 @@ Stop Time 2023-10-10 20:09:07
 
 ## Attack Maps Before Hardening / Security Controls
 
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
+![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/YuY5UgW.png)<br>
 
 ## Metrics After Hardening / Security Controls
 
@@ -72,6 +72,6 @@ Stop Time	2023-10-12 22:27
 
 ## Conclusion
 
-In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
+In this endeavor, a compact honeynet was established within Microsoft Azure, and log data was channeled into a Log Analytics workspace. Using Microsoft Sentinel, alerts and incidents were generated from these logs. Metrics were initially gathered from the vulnerable environment and once more after bolstering it with security controls. The significant drop in security events and incidents post-control implementation underscores their efficacy.
 
-It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+It's important to mention that if the network resources had high user engagement, we might have observed an uptick in security events and alerts in the 24 hours after the security measures were put in place.
